@@ -1,0 +1,283 @@
+/*==============Media 800-1000=============*/
+@media (min-width: 800px) and (max-width: 1000px) {
+
+
+    .row1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 47px;
+    }
+
+    .block {
+        width: 30vw;
+    }
+
+    .row3 {
+        flex-direction: column;
+        gap: 37px;
+    }
+
+    .block3 {
+        width: 100%;
+    }
+
+    .row3-icons {
+        gap: 30px;
+    }
+
+    /*========user============*/
+    .user-info {
+        flex-direction: column-reverse;
+    }
+
+    .user-about {
+        width: auto;
+    }
+}
+
+/*==============Media 650-799=============*/
+@media (min-width: 650px) and (max-width: 799px) {
+    .dashboard {
+        margin: 0 auto;
+    }
+
+    .menu {
+        display: none;
+    }
+    
+
+    .container {
+        margin-left: 0;
+        width: 100vw;
+        padding: 15px;
+    }
+
+    .title img {
+        display: block;
+        height: 17px;
+        opacity: 0.78;
+    }
+
+    .title {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .row1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 47px;
+    }
+
+    .block {
+        width: 43vw;
+    }
+
+    footer {
+        margin-left: 0;
+    }
+
+    .footer-top-line {
+        margin-left: 0;
+    }
+
+    .row3 {
+        flex-direction: column;
+        gap: 37px;
+    }
+
+    .block3 {
+        width: 100%;
+    }
+
+    .row3-icons {
+        gap: 30px;
+    }
+
+    /*========user============*/
+    .user-info {
+        flex-direction: column-reverse;
+    }
+
+    .user-about {
+        width: auto;
+    }
+
+
+}
+
+
+/*==============Media 500-649=============*/
+@media (min-width: 500px) and (max-width: 649px) {
+    .menu {
+        display: none;
+    }
+
+    .dashboard {
+        margin-left: 0;
+    }
+
+    .container {
+        margin-left: 0;
+        width: 100vw;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .title img {
+        display: block;
+        height: 17px;
+        opacity: 0.78;
+    }
+
+    .title {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .row1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    .block {
+        width: 43vw;
+    }
+
+    .row2 {
+        flex-direction: column;
+        gap: 37px;
+    }
+
+    .block2 {
+        width: 100%;
+    }
+
+    footer {
+        margin-left: 0;
+    }
+
+    .footer-top-line {
+        margin-left: 0;
+    }
+
+    .row3 {
+        flex-direction: column;
+        gap: 37px;
+    }
+
+    .block3 {
+        width: 100%;
+    }
+
+    .row3-icons {
+        gap: 30px;
+    }
+
+    /*========user============*/
+    .user-info {
+        flex-direction: column-reverse;
+    }
+
+    .user-about {
+        width: auto;
+    }
+    .data-profile{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+}
+
+/*==============Media 0-499=============*/
+@media (max-width: 499px) {
+    .menu {
+        display: none;
+    }
+
+    .dashboard {
+        margin-left: 0;
+    }
+
+    .container {
+        margin-left: 0;
+        width: 100vw;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .title img {
+        display: block;
+        height: 17px;
+        opacity: 0.78;
+    }
+
+    .title {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .row1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    .block {
+        width: 100%;
+    }
+
+    .row2 {
+        flex-direction: column;
+        gap: 37px;
+    }
+
+    .block2 {
+        width: 100%;
+    }
+
+    footer {
+        margin-left: 0;
+    }
+
+    .footer-top-line {
+        margin-left: 0;
+    }
+
+    .row3 {
+        flex-direction: column;
+        gap: 37px;
+    }
+
+    .block3 {
+        width: 100%;
+    }
+
+    .row3-icons {
+        gap: 30px;
+    }
+
+    /*========user============*/
+    .user-info {
+        flex-direction: column-reverse;
+    }
+
+    .user-about {
+        width: auto;
+    }
+
+    .data-profile {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

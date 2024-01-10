@@ -1,0 +1,520 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(85, 85, 85);
+    font-weight: 500;
+}
+body{
+    background-color: rgba(241, 241, 241, 0.905);
+
+}
+/*===============Left menu========*/
+.menu {
+    margin-left: 0;
+    padding-top: 30px;
+    height: 100vh;
+    position: fixed;
+    width: 200px;
+    background-color: rgb(244, 249, 253);
+    box-shadow: 4px 0px 5px rgb(195, 194, 194);
+}
+
+.menu h2 {
+    padding-left: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(178, 175, 175);
+}
+
+.menu ul {
+    list-style: none;
+    padding: 25px 10px;
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+}
+
+.menu ul li {
+    width: 170px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    padding-left: 25px;
+}
+
+.list1 {
+    background-color: rgb(182, 12, 66);
+    box-shadow: 1px 1px 2px 1px rgb(0 0 0 / 20%)
+}
+
+.list1 .icon-gray {
+    display: none;
+}
+
+.list2 .icon-white {
+    display: none;
+}
+
+.list1 a {
+    color: #fff;
+}
+
+.menu ul li img {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.menu ul li:hover {
+    background-color: rgb(225, 224, 223);
+}
+
+/*================dashboard==============*/
+.container {
+    width: 73vw;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.title img {
+    display: none;
+}
+
+.dashboard {
+    background-color: rgba(241, 241, 241, 0.905);
+    margin-left: 200px;
+}
+
+.row-down {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    align-items: flex-end;
+}
+
+.row-down img {
+    margin: 0;
+    width: 15px;
+    height: 15px;
+}
+
+.row-down h6 {
+    margin: 0;
+
+}
+
+.row1,
+.row2,
+.row3 {
+    display: flex;
+    margin-top: 65px;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+
+/*=======row1==============*/
+.block {
+    width: 19vw;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 2px 2px 3px 1px rgb(0 0 0 / 20%);
+}
+
+.row1-1 {
+    width: 60px;
+    height: 60px;
+    padding: 14px;
+    position: absolute;
+    margin-top: -32px;
+}
+
+.green {
+    background-color: rgb(11, 181, 11);
+    box-shadow: 1px 1px 2px 1px rgb(0 0 0 / 20%)
+}
+
+.yellow {
+    background-color: rgb(230, 160, 7);
+    box-shadow: 1px 1px 2px 1px rgb(0 0 0 / 20%)
+}
+
+.blue {
+    background-color: rgb(0, 98, 255);
+    box-shadow: 1px 1px 2px 1px rgb(0 0 0 / 20%)
+}
+
+.red {
+    background-color: rgb(182, 12, 66);
+    box-shadow: 1px 1px 2px 1px rgb(0 0 0 / 20%)
+}
+
+.block h2 {
+    text-align: end;
+    border-bottom: 1px solid rgb(178, 175, 175);
+    padding-bottom: 15px;
+    font-size: larger;
+}
+
+.block h6 {
+    text-align: end;
+}
+
+/*===============row2================*/
+
+.block2 {
+    width: 23vw;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 2px 2px 3px 1px rgb(0 0 0 / 20%);
+}
+
+.row2-2 {
+    width: auto;
+    padding: 14px;
+    margin-top: -32px;
+}
+
+.block2 h4 {
+    margin-top: 15px;
+}
+
+.block2 .line {
+    border-bottom: 1px solid rgb(178, 175, 175);
+    padding-bottom: 15px;
+}
+
+.block2 .graphic {
+    width: 100%;
+}
+
+/*================row3==============*/
+.row3 {
+    padding-bottom: 50px;
+}
+
+.block3 {
+    width: 35vw;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 2px 2px 3px 1px rgb(0 0 0 / 20%);
+}
+
+.row3-3 ul {
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+}
+
+.row3-3 ul h5 {
+    padding: 10px;
+}
+
+.row3-3 ul li {
+    display: inline;
+}
+
+.row3-3 ul .first-li {
+    background-color: rgb(233, 178, 59);
+    ;
+}
+
+.row3-3 {
+    width: auto;
+    padding: 14px;
+    margin-top: -32px;
+}
+
+.row3-3 h6,
+.row3-3 h5 {
+    color: #fff;
+    font-weight: 500;
+}
+
+.row-icon {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.bugs {
+    margin-top: 10px;
+}
+
+.row3-list {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 7px;
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(178, 175, 175);
+    justify-content: space-between;
+}
+
+.row3-list:last-child {
+    border-bottom: none;
+}
+
+.row3-text {
+    display: flex;
+    gap: 10px;
+}
+
+.row3-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.row3-list img {
+    width: 20px;
+    height: 20px;
+}
+
+.row3-list input:checked {
+    accent-color: #fff;
+}
+
+.row3-3 h6 {
+    margin-top: 10px;
+}
+
+table {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 14px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    color: rgb(54, 181, 181);
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+tr {
+    border-bottom: 1px solid rgb(178, 175, 175);
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+/*==============footer=============*/
+footer {
+    background-color: rgba(241, 241, 241, 0.905);
+    margin-left: 200px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+    font-size: 12px;
+    font-weight: 900;
+    margin-right: 30px;
+}
+
+.footer-top-line {
+    height: 1px;
+    background-color: rgb(178, 175, 175);
+    margin-left: 30px;
+}
+
+
+/*=============user-profile===========*/
+
+/*=============menu user===============*/
+.user .list2 {
+    background-color: rgb(182, 12, 66);
+    box-shadow: 1px 1px 2px 1px rgb(0 0 0 / 20%)
+}
+
+.user .list2 a {
+    color: #fff;
+}
+
+.user .list1 {
+    background-color: rgb(244, 249, 253);
+    box-shadow: none
+}
+
+.user .list1 a {
+    color: rgb(85, 85, 85);
+}
+
+.user .list1 .icon-white,
+.user .list2 .icon-gray {
+    display: none;
+}
+
+.user .list1 .icon-gray,
+.user .list2 .icon-white {
+    display: block;
+}
+
+
+/*================user-profile=========*/
+.user-info {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 40px;
+}
+
+/*=========edit-profile=======*/
+.edit-profile {
+    position: relative;
+    width: auto;
+    margin-top: 29px;
+}
+
+.edit-title {
+    width: 94%;
+    margin-left: 20px;
+    background-color: rgb(182, 12, 66);
+    box-shadow: 2px 2px 3px 1px rgb(0 0 0 / 20%);
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    position: absolute;
+    padding: 15px;
+}
+
+.edit-title h4,
+.edit-title h5 {
+    color: #fff;
+}
+
+form {
+    background-color: #fff;
+    box-shadow: 2px 2px 3px 1px rgb(0 0 0 / 20%);
+    padding: 15px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    padding-top: 80px;
+    font-size: 14px;
+}.data-profile{
+    display: grid;
+    grid-template-areas: 
+    'company company username username email email'
+    'firstname firstname firstname lastname lastname lastname'
+    'address address address address address address'
+    'city city country country postalcode postalcode'
+    'aboutme aboutme aboutme aboutme aboutme aboutme';
+    gap: 20px 
+}
+
+.data-company {
+    grid-area: company;
+}
+.data-username {
+    grid-area: username;
+}
+.data-email{
+    grid-area: email;
+}
+.data-firstname {
+    grid-area: firstname;
+}
+.data-lastname {
+    grid-area: lastname;
+}
+.data-address {
+    grid-area: address;
+}
+.data-city{
+    grid-area: city;
+} 
+.data-country{
+    grid-area: country;
+}
+.data-postalcode {
+    grid-area: postalcode;
+}
+.data-aboutme {
+    grid-area: aboutme;
+}
+
+.flex-aic {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.flex-aic input,
+.flex-aic textarea {
+    border-bottom: 1px solid rgb(178, 175, 175);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 13px;
+}
+.flex-aic label{
+    padding-left: 5px;
+}
+.btn-update{
+    background-color: rgb(182, 12, 66);
+    box-shadow: 2px 2px 3px 1px rgb(0 0 0 / 20%);
+    color: #fff;
+    width: 150px;
+    height: 30px;
+    border-width: 0;
+    margin-top: 20px;
+}
+
+/*================user about==========*/
+.user-about {
+    position: relative;
+    width: 30vw;
+}
+
+.avatar {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    box-shadow: 2px 2px 3px 1px rgb(0 0 0 / 20%);
+}
+
+.about-me {
+    background-color: #fff;
+    box-shadow: 2px 2px 3px 1px rgb(0 0 0 / 20%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 25px;
+    padding-top: 60px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.about-me h5 {
+    font-weight: 800;
+}
+
+.about-me h5:last-child {
+    font-weight: 400;
+    font-size: 10px;
+}

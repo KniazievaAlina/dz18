@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="menu user">
+        <h2>Company</h2>
+        <ul>
+            <li class="list1">
+                <img class="icon-white" src="img/dashboard_white.svg" />
+                <img class="icon-gray" src="img/dashboard_gray.svg" />
+                <a href="index.html">Dashboard</a>
+            </li>
+            <li class="list2">
+                <img class="icon-white" src="img/account_white.svg" />
+                <img class="icon-gray" src="img/account_gray.svg" />
+                <a href="user.html">User Profile</a>
+            </li>
+            <li class="list3"><img src="img/map_gray.svg" /><a href="#">Maps</a></li>
+            <li class="list4"><img src="img/notify_gray.svg" /><a href="#">Notifications</a></li>
+            <li class="list5"><img src="img/support_gray.svg" /><a href="#">Support</a></li>
+        </ul>
+    </section>
+    <section class="dashboard user-profile">
+        <div class="container">
+            <div class="title">
+                <img src="img/menu.png" />
+                <h2>User Profile</h2>
+            </div>
+            <div class="user-info">
+                <div class="edit-profile">
+                    <div class="edit-title">
+                        <h4>Edit Profile</h4>
+                        <h5>Complete your profile</h5>
+                    </div>
+                    <form method="POST" name="profile" action="/user.php">
+                        <div class="data-profile">
+
+                            <div class="data-company flex-aic">
+                                <label for="company">Company</label>
+                                <input type="text" name="company">
+                            </div>
+                            <div class="data-username flex-aic">
+                                <label for="username">Username</label>
+                                <input type="text" name="username">
+                            </div>
+                            <div class="data-email flex-aic">
+                                <label for="email">Email address</label>
+                                <input type="email" name="email">
+                            </div>
+
+                            <div class="data-firstname flex-aic">
+                                <label for="firstname">First name</label>
+                                <input type="text" name="firstname">
+                            </div>
+                            <div class="data-lastname flex-aic">
+                                <label for="lastname">Last name</label>
+                                <input type="text" name="lastname">
+                            </div>
+
+                            <div class="data-address flex-aic">
+                                <label for="address">Address</label>
+                                <input type="text" name="address">
+                            </div>
+                            <div class="data-city flex-aic">
+                                <label for="city">City</label>
+                                <input type="text" name="city">
+                            </div>
+                            <div class="data-country flex-aic">
+                                <label for="country">Country</label>
+                                <input type="text" name="country">
+                            </div>
+                            <div class="data-postalcode flex-aic">
+                                <label for="postalcode">Postal code</label>
+                                <input type="text" name="postalcode">
+                            </div>
+                            <div class="data-aboutme flex-aic">
+                                <label for="aboutme">About me</label>
+                                <textarea name="aboutme" cols="30" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <input type="submit" class="btn-update" value="UPDATE PROFILE">
+
+                    </form>
+
+                </div>
+                <div class="user-about">
+                    <div class="avatar">
+                        <img src="img/avatar.png" />
+                    </div>
+                    <div class="about-me">
+                        <h6>CEO / CO-FOUNDER</h6>
+                        <h5>Alec Thompson</h5>
+                        <h5>Don`t be scared of the truth because we need to restart the human foundation in truth And I
+                            love you like Kanye loves Kanye I love Rick Owens` bed design but the back is...</h5>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <footer>
+        <div class="footer-top-line"></div>
+        <div class="container">
+            <ul>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">LICENSES</a></li>
+            </ul>
+            <h5>2019 - made with love</h5>
+        </div>
+    </footer>
+</body>
+
+</html>
